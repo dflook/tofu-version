@@ -28,7 +28,7 @@ runs:
   env:
     OPENTOFU: true
   using: docker
-  image: docker://danielflook/terraform-github-actions@sha256:a51a73cb8b895c7761ee162033f561238d32e2c8f5e86817895b0a53dca67121
+  image: docker://ghcr.io/dflook/terraform-github-actions@sha256:a51a73cb8b895c7761ee162033f561238d32e2c8f5e86817895b0a53dca67121
   entrypoint: /entrypoints/version.sh
 
 branding:
